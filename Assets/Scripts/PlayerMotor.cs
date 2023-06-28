@@ -8,7 +8,7 @@ public class PlayerMotor : MonoBehaviour
     private Vector3 playerVelocity;
     private bool isGrounded;
     public float gravity = -9.8f;
-    public float speed = 5f;
+    public float speed = 4f;
     
     bool crouching = false;
     float crouchTimer = 1;
